@@ -1,0 +1,71 @@
+- PRIMO PUNTO: 
+
+SELECT * 
+FROM `students` 
+WHERE `date_of_birth` 
+LIKE '1990-%';
+
+risultato = 160;
+
+
+- SECONDO PUNTO: 
+
+SELECT * 
+FROM `courses` 
+WHERE `cfu` 
+AND `cfu` > 10;
+
+risultato = 479;
+
+
+- TERZO PUNTO: 
+
+SELECT * 
+FROM `students`
+WHERE YEAR(`date_of_birth`) = 1990;
+
+risultato = 160;
+
+
+- QUARTO PUNTO: 
+
+SELECT * 
+FROM `courses` 
+WHERE `period LIKE 'I semestre' AND `year` LIKE '1'
+
+risultato = 286;
+
+
+- QUINTO PUNTO: 
+
+SELECT * 
+FROM `exams`
+WHERE `hour` > '14%' AND `date` = '2020-06-20'
+
+risultato = 21;
+
+
+- SESTO PUNTO: 
+
+SELECT * 
+FROM `degrees`
+WHERE `level` LIKE 'magistrale'
+
+risultato = 38;
+
+
+- SETTIMO PUNTO: 
+
+SELECT * 
+FROM `departments`
+
+risultato = 12;
+
+
+- OTTAVO PUNTO: 
+
+SELECT * 
+FROM `teachers`
+WHERE `phone` IS null
+
+risultato = 50;
