@@ -24,7 +24,7 @@ SELECT *
 FROM `students`
 WHERE YEAR(`date_of_birth`) < 1991
 
-risultato = 160;
+risultato = 3186;
 
 
 - QUARTO PUNTO: 
